@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content :center ;
+    align-items: center;
+    min-height: 100vh;
+    background-color:white;
+}
+
+.container{
+    width: 50%;
+    height:50vh;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #33ccff;
+    box-shadow: 10px 10px 16px #12282e45,
+                10px 10px 16px
+       
+}
+.brand{
+    font-size: 20px;
+    font-weight: bold;
+    color:gray;
+    text-align: center;
+}
+.display #screen{ 
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: 0;
+    background: #f3ecfe;
+    border-radius: 6px;
+    }
+.btn{
+    width: 10%;
+    margin-top: 1.7em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+   
+.btns .row button {
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px rgba(189, 194, 240, 0.734),
+                -5px -5px 8px rgba(86, 85, 130, 0.834);
+
+}
+.button:hover
+{
+    box-shadow: inset 5px 5px 8px #66d9ff,
+                inset -5px -5px 8px #ffffff;
+}
+#eval{
+    background-color: rgba(14, 14, 191, 0.53);
+    color: #ffff;
+    width: 170px;
+   
+}
+#eval:hover{
+    box-shadow:inset 5px 5px 8px #66d9ff,
+                inset -5px -5px 8px #00ace6;
+}
+#ac{
+    background-color: #33cc33;
+    color: #ffff;
+    
+}
+#ac:hover{
+    box-shadow:inset 5px 5px 8px #2eb82e,
+                inset -5px -5px 8px #33cc33;
+}
+#ce{
+    background-color:#ff3399;
+    color: #ffff;
+   
+}
+#ce:hover{
+    box-shadow:inset 5px 5px 8px #e60073,
+                inset -5px -5px 8px #ff3399;
+}
+
